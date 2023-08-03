@@ -28,6 +28,8 @@ int main()
         printf("%d is an odd integer", N);
     }
     else
+    {
         printf("%d is an odd integer", N);
+    }
     return 0;
 }
