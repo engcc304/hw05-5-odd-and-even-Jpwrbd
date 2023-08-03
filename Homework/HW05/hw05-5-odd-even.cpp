@@ -19,17 +19,17 @@
 #include <stdio.h>
 int main()
 {
-    int N = 0;
+    int num = 0;
     printf("Input : ");
-    scanf("%d", &N);
+    scanf("%d", &num);
     printf("Output: ");
-    if (N % 2 == 0)
+    if (num % 2 == 0)
     {
-        printf("%d is an odd integer", N);
+        printf("%d is an odd integer", num);
     }
     else
     {
-        printf("%d is an odd integer", N);
+        printf("%d is an odd integer", num);
     }
     return 0;
 }
