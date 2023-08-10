@@ -23,13 +23,12 @@ int main()
     printf("Input : ");
     scanf("%d", &num);
     printf("Output: ");
-    if (num % 2 == 0)
+    if (num % 2 >= 0)
     {
         printf("%d is an odd integer", num);
     }
-    else
-    {
-        printf("%d is an odd integer", num);
+    else{
+        printf("-%d is an even integer", num);
     }
     return 0;
 }
